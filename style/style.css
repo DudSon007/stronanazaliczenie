@@ -1,0 +1,155 @@
+html
+{
+	min-height:100%;
+	background: linear-gradient(#0F0C0B, #6C5551);
+}
+
+a
+{
+		text-decoration:none;
+		color:black;
+}
+
+body
+{
+	font-family: 'Lora', serif;
+}
+
+
+#container
+{
+	margin-top:30px;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;	
+	margin-bottom:30px;
+	height:100%;
+}
+
+#logo
+{
+	width:998px;
+	min-height:286px;
+	border:1px solid #c38c26;
+	background-image: url(../img/logo.png);
+}
+
+#logotext
+{
+	font: 36px Times New Roman;
+	color:black;
+	position:relative;
+	top:150px;
+	left:538px;
+	width:400px;
+	min-height:40px;
+	background-color:#E59100;/*#c38c26;*/
+	text-align:center;
+	padding:0px 30px;
+	opacity: 0.8;
+}
+
+
+#content
+{
+	margin-top:10px;
+	width:998px;
+	min-height:300px;
+	background-color:#FFF2DB;
+	border: 1px solid #634E4A;
+}
+
+#menu
+{
+	width:160px;
+	min-height:360px;
+	/*background-color:white;*/
+	margin:20px;
+	float:left;
+}
+
+#menutop
+{
+	width:130px;
+	min-height:0px;
+	background-color:#E59100;
+	padding:15px;
+	text-align:center;
+}
+
+.button
+{
+	width:160px;
+	min-height:40px;
+	background-color:#FFD892;
+	text-align:center;
+	margin:5px 0;
+	line-height:40px;
+}
+
+.button:hover
+{
+	width:160px;
+	min-height:40px;
+	background-color:#E59100;
+	text-align:center;
+	margin:5px 0;
+	line-height:40px;
+}
+
+#text
+{
+	width:458px;
+	min-height:560px;
+	/*background-color:white;*/
+	margin:20px 0;
+	float:left;
+	border-left: 1px solid #FFC561;
+	border-right: 1px solid #FFC561;
+	padding:0 20px;
+	text-align: justify;
+}
+
+#texttop
+{
+	width:428px;
+	min-height:0px;
+	background-color:#FFE4B6;
+	padding:10px;
+	text-align:center;
+	border: 1px solid #E59100;
+	border-left:none;
+	border-right:none;
+	font-size:23px;
+}
+
+#php
+{
+	width:258px;
+	min-height:360px;
+	/*background-color:white;*/
+	margin:20px;
+	float:left;
+	text-align:justify;
+}
+
+#phptop
+{
+	width:228px;
+	min-height:0px;
+	background-color:#E59100;
+	padding:15px;
+	text-align:center;
+}
+
+#footer
+{
+	width: 958px;
+	min-height: 50px;
+	background-color:white;
+	margin:20px;
+	clear:both;
+	background: linear-gradient(#FFD894, #FFB029) no-repeat;
+	line-height:25px;
+	text-align: center;
+}
